@@ -1,4 +1,3 @@
-
 require 'cassandra'
 
 puts "creating new keyspace.."
@@ -19,6 +18,3 @@ puts "output data from the program.."
 client.each_key("users") do |user|
    puts "key : " + user
 end
-
-
-
