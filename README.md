@@ -1,4 +1,4 @@
-Cassandra Sample
+Ruby with Cassandra Sample
 =====================
 
 Build sample written in ruby that uses `cassandra` database service
