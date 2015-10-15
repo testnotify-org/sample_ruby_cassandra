@@ -14,5 +14,6 @@ script:
 archive: true
 
 notifications:
-  email: false
+  email: 
+    varsha@shippable.com
     
