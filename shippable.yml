@@ -13,7 +13,9 @@ script:
   
 archive: true
 
-cache: true
+cache: 
+  - true
+  - reset_minion
 
 notifications:
   email: 
