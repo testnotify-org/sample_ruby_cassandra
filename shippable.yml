@@ -19,3 +19,4 @@ notifications:
   email: 
     varsha@shippable.com
     
+commit: reset_minion
