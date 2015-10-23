@@ -17,4 +17,4 @@ cache: true
 
 notifications:
   email: 
-    varsha@shippable.com
+    test.ci@yopmail.com
