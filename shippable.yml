@@ -5,6 +5,8 @@ services:
 
 install:
   - gem install cassandra
+  
+build_image: shippable/minv2
 
 script:
   - cassandra-cli -host localhost -port 9160 -f schema.txt
@@ -16,3 +18,4 @@ archive: true
 notifications:
   email: false
   
+cache: true
